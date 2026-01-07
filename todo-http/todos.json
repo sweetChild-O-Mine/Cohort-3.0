@@ -1,42 +1,27 @@
 [
   {
-    "name": "Molecule Man",
-    "age": 29,
-    "secretIdentity": "Dan Jukes",
-    "powers": [
-      "Radiation resistance",
-      "Turning tiny",
-      "Radiation blast"
-    ]
-  },
-  {
-    "name": "Madame Uppercut",
-    "age": 39,
-    "secretIdentity": "Jane Wilson",
-    "powers": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
-    ]
-  },
-  {
-    "name": "nigga Man",
-    "age": 29,
-    "secretIdentity": "anuvvv soni"
-  },
-  {
     "name": "Prateek Kuhad",
     "age": 30,
     "secretIdentity": "kulhad guy who sings nice"
   },
   {
-    "name": "indie unknow guy",
+    "name": "Anuv Jain",
     "age": 30,
-    "secretIdentity": "kulhad guy who sings nice"
+    "secretIdentity": "Some Overrated guy!!"
   },
   {
-    "name": "indie unknow guy",
+    "name": "Arijit",
     "age": 30,
-    "secretIdentity": "kulhad guy who sings nice"
+    "secretIdentity": "THE GAWWDDD"
+  },
+  {
+    "name": "Atif Aslam",
+    "age": null,
+    "secretIdentity": "ANother GAWDDDD from Pakistan"
+  },
+  {
+    "name": "Batman",
+    "age": 46,
+    "city": "New york"
   }
 ]
