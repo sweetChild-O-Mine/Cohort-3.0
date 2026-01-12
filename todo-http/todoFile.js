@@ -177,7 +177,9 @@ app.put('/todos', async (req, res) => {
     }
 })
 
+const PORT = 3000
 
-fs.readFile()
 
-app.listen(3000, () => console.log("We are listening you !!!"))
+app.listen(3000, () => {
+    console.log("We are listening youu!!! ");
+})
