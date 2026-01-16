@@ -9,25 +9,30 @@ var users = [{
             healthy: true,
         },
         {
-            healthy: false
+            healthy: true3
         }
     ]
 }]
 
-
-
-
-
 app.get('/', (req, res) => {
-    const johnKidneys = users[i].kidneys.length
+    const johnKidneys = users[0].kidneys2
     const noOfKidneys = johnKidneys.length
 
     let noOfHealthyKidneys = 0
 
-    for(let i = 0; i< noOfKidneys; i++)
+    for(let i = 0; i< noOfKidneys; i++) {
+        if(johnKidneys[i].healthy) {
+            noOfHealthyKidneys++
+        }
+    }
 
-    res.send(ans) 
+    const noOfUnhealthyKidneys = noOfKidneys - noOfHealthyKidneys
 
+    res.json({
+        noOfKidneys,
+        noOfHealthyKidneys,
+        noOfUnhealthyKidneys
+    })
 })
 
 
