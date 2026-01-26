@@ -18,7 +18,7 @@ const typoFixer = (req, res, next) => {
 // --- 2. Apply Middleware ---
 app.use(typoFixer);
 
-// --- 3. Route (The End Destination) ---
+// --- 3. Route (The End Destination) ---2
 app.get('/', (req, res) => {
     console.log("🏁 STEP 3: Route ke andar request pahunchi.");
     console.log("   -> Route ko Name mila:", req.query.name);
@@ -29,4 +29,4 @@ app.get('/', (req, res) => {
 
 app.listen(3000, () => {
     console.log("🚀 Server Started on 3000. Waiting for request...");
-});
+});-
